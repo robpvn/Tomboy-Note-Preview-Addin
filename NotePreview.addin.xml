@@ -1,0 +1,22 @@
+<Addin id="NotePreviewAddin"
+	namespace="Tomboy"
+	name="Note Preview"
+	author="Robert Nordan, www.robpvn.net"
+	description="Creates a tooltip with a preview of the linked note when you hover over a link."
+	category="Tools"
+	defaultEnabled="true"
+	version="0.10">
+
+	<Runtime>
+		<Import assembly="NotePreviewAddin.dll" />
+	</Runtime>
+
+	<Dependencies>
+		<Addin id="Tomboy" version="0.10" />
+	</Dependencies>
+
+	<Extension path="/Tomboy/NoteAddins">
+		<NoteAddin type="Tomboy.NotePreview.NotePreviewAddin" />
+	</Extension>
+	
+</Addin>

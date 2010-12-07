@@ -16,6 +16,10 @@ Using is very easy, hover your mouse cursor over a note link in the text and a t
 
 Version 0.10: Original release.
 
-4) License
+4) Compiling
+
+The add-in can be compiled using make, or sudo make install to send it straight to the addin folder on Linux. Open the Makefile to see which compiler commands are used.
+
+5) License
 
 The add-in is licensed with the LGPLv3, like Tomboy Notes.
